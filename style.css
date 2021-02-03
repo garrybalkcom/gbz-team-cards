@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:0;
+    line-height:150%;
+    font-size:100%;
+    font-family: 'Roboto', sans-serif
+}
+img{
+    width:175px;
+    height:175px;
+    border-radius:50%;
+    
+    
+}
+.image{
+    background:black;
+    position:relative;
+    top:-100px;
+    width:200px;;
+    height:200px;
+    margin:auto;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+body{
+    background:silver;
+    height:100vh;
+    }
+.container{
+    background:gray;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+
+    
+    
+}
+h1{
+    text-align:center;
+    font-size:100px;
+}
+h3{
+    font-size:25px;
+    margin-bottom:10px;
+}
+.team-member-card{
+    text-align:center;
+    width:100%;
+    background:white;
+    margin:5px;
+    width:300px;
+    padding:20px;
+    border-radius:20px;
+    margin-top:100px;
+    
+}
+p{
+    color:gray;
+    font-size:14px;
+    
+    
+    
+}
